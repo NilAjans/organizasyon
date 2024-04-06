@@ -26,13 +26,16 @@
     .contact-info {
       margin-top: 20px;
     }
-    .image-container {
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
       margin-top: 40px;
     }
-    img {
-      max-width: 200%;
+    .image-grid img {
+      max-width: 100%;
       height: auto;
-      max-height: 400px; /* Adjust this value to your desired height */
+      max-height: 200px; /* Adjust this value to control image height */
     }
   </style>
 </head>
@@ -45,8 +48,16 @@
       <p>Telefon Numarası: <a href="tel:+905335039952">+90 533 503 99 52</a></p>
       <p>E-posta: <a href="mailto:karagoz_yilmaz@hotmail.com">karagoz_yilmaz@hotmail.com</a></p>
     </div>
-    <div class="image-container">
-      <img src="path_to_your_image.jpeg" alt="Yılmaz Karagöz İşletmesi">
+    <div class="image-grid">
+      <img src="path_to_your_image.jpeg" alt="Image 1">
+      <img src="image2.jpeg" alt="Image 2">
+      <img src="image3.jpeg" alt="Image 3">
+      <img src="image4.jpeg" alt="Image 4">
+      <img src="image5.jpeg" alt="Image 5">
+      <img src="image6.jpeg" alt="Image 6">
+      <img src="image7.jpeg" alt="Image 7">
+      <img src="image8.jpeg" alt="Image 8">
+      <img src="image9.jpeg" alt="Image 9">
     </div>
   </div>
 </body>
